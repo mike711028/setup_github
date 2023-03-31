@@ -3,14 +3,15 @@ all operation under Linux system
 ## Generate an SSH Key for an Account 
 
 the email address has to be the same with the email you register on github
+
 ~~~
-$ ssh-keygen -t rsa -C "your-email-address"
+$ ssh-keygen -t ed25519 -C "user@email.com"
 ~~~ 
 
 When you are prompted to "Enter a file in which to save the key", press Enter to accept the default file location. 
 (if the file name already exists, you can modify file name here to avoid overwriting)
+
 ~~~
-$ ssh-keygen -t ed25519 -C "your.name@personal.com"
 Generating public/private ed25519 key pair.
 Enter file in which to save the key (/HOME/PATH/.ssh/id_ed25519): /HOME/PATH/.ssh/id_ed25519
 ~~~
@@ -42,12 +43,12 @@ cd ~/.ssh
 cat id_ed25519
 ~~~
 and copy the public key 
-# Paste the Public Key to GitHub Setting
-## Find the setting
+## Paste the Public Key to GitHub Setting
+### Find the setting
 ![](../img/userbar-account-settings.webp)
-## Create a new ssh key
+### Create a new ssh key
 ![](../img/ssh-add-ssh-key-with-auth.webp)
-## Paste your ssh key in below
+### Paste your ssh key in below
 name the title as you want 
 ![](../img/ssh-key-paste-with-type.webp)
 
