@@ -35,7 +35,7 @@ git clone git@github.com-personal:github_user/repo_name.git
 ~~~
 
 # Set Different Account under Different Repositories
-this approach can let you to operate different github accounts under different repositories.
+this approach can let you to operate different github accounts under different repositories.(pull, push code separately under two folder in the same device)
 ~~~
 # Clone and configure a personal repo
 git clone git@github.com:github_user/personal-repo-dir.git
@@ -51,6 +51,7 @@ cd work-repo-dir
 git config --local user.name 'user2'
 git config --local user.email 'user2@email.com'
 ~~~
+commit, pull and push code by different git accounts under two folder but in the same device
 
 
 reference:
