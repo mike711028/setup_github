@@ -15,13 +15,18 @@ user.email=user@email.com
 user.name=username
 ~~~
 
-use `--local` to specify the name and email address under specific repository
+use `--local` to customize the name and email address under specified repository
 
 ~~~
 $ git config --local user.name "user2name"
 $ git config --local user.email "user2@email.com"
 ~~~
 
+under the specified repository, use below command to check local config
+
+~~~
+$ git config --local -l
+~~~
 
 reference:
 
