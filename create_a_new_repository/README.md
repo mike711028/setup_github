@@ -15,7 +15,10 @@ $ git config --local user.email "user2@email.com"
 
 ## Add a Remote Repository from GitHub
 Go to GitHub and Create a New Repository 
-![](../img/create_a_new_repo.png)
+
+<p align="center">
+  <img src=../img/create_a_new_repo.png>
+</p>
 
 ## Connect Local Folder and Remote Repository 
 ~~~

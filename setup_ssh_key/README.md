@@ -45,12 +45,23 @@ cat id_ed25519
 and copy the public key 
 ## Paste the Public Key to GitHub Setting
 ### Find the setting
-![](../img/userbar-account-settings.webp)
+
+<p align="center">
+  <img src=../img/userbar-account-settings.webp>
+</p>
+
 ### Create a new ssh key
-![](../img/ssh-add-ssh-key-with-auth.webp)
+
+<p align="center">
+  <img src=../img/ssh-add-ssh-key-with-auth.webp>
+</p>
+
 ### Paste your ssh key in below
 name the title as you want 
-![](../img/ssh-key-paste-with-type.webp)
+
+<p align="center">
+  <img src=../img/ssh-key-paste-with-type.webp>
+</p>
 
 ## Create the SSH config File 
 if config already exists, just modify it. However, if not, create a config file.
